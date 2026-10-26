@@ -15,18 +15,6 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@angular-devkit/core@22.2.2":
-  version "22.2.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-22.2.2.tgz#ee8c3c23ebde4bb6cac6719c07bcbaaa5dd803ba"
-  integrity sha512-iQexb5xUON9AkTzvBiMftrHWLguIlYv6M/BOH/sj7U5L8eOPMu8N269WF74xPo4n/X5tusFLqniGI0zolT2Sjg==
-  dependencies:
-    ajv "8.20.0"
-    ajv-formats "3.0.1"
-    jsonc-parser "3.3.1"
-    picomatch "4.0.7"
-    rxjs "7.8.2"
-    source-map "0.8.0"
-
 "@angular-devkit/core@22.2.3":
   version "22.2.3"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-22.2.3.tgz#4cdcf4b2a8aa0be7035ca27e8757cba701025e64"
@@ -47,17 +35,6 @@
     "@angular-devkit/core" "22.2.3"
     "@angular-devkit/schematics" "22.2.3"
     "@inquirer/prompts" "8.7.2"
-
-"@angular-devkit/schematics@22.2.2":
-  version "22.2.2"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-22.2.2.tgz#a36398e0941bccd3fe6538b62793b4f71386ae1c"
-  integrity sha512-uCpFZbQgFUrOjKHLeYSCaYCJdufauYom8yFGggm67yetMAGKPbmRvUEko8i8auNFoBQ+1w1CivjSTwtmXQzZkA==
-  dependencies:
-    "@angular-devkit/core" "22.2.2"
-    jsonc-parser "3.3.1"
-    magic-string "1.4.1"
-    ora "9.4.1"
-    rxjs "7.8.2"
 
 "@angular-devkit/schematics@22.2.3":
   version "22.2.3"
@@ -1940,13 +1917,13 @@
     multer "1.4.4-lts.1"
     tslib "2.5.3"
 
-"@nestjs/schematics@^12.0.0", "@nestjs/schematics@^12.0.7":
-  version "12.0.7"
-  resolved "https://registry.yarnpkg.com/@nestjs/schematics/-/schematics-12.0.7.tgz#77f2dd34406b15ea5f876be0a76d672c58d7b64a"
-  integrity sha512-zSzJVhsmn/m+vp28sRneq1N+GcNwzHOEfFpm6llOeZTPYnAN6UVpzSAaA2+AYqZtAgo3HB+eTOzkbwQVyBlb4g==
+"@nestjs/schematics@^12.0.0", "@nestjs/schematics@^12.0.10":
+  version "12.0.10"
+  resolved "https://registry.yarnpkg.com/@nestjs/schematics/-/schematics-12.0.10.tgz#1545ac1ee17e5347e11d5f9e9790e4bb4a7988b2"
+  integrity sha512-3objKOOQDGxcckj92d7NNiYGVNoMoUqqw7eX8O/25ZL4V6ih/Hkx4WgOJ/H/2fkfag4UdiYN/GySHimn682+nQ==
   dependencies:
-    "@angular-devkit/core" "22.2.2"
-    "@angular-devkit/schematics" "22.2.2"
+    "@angular-devkit/core" "22.2.3"
+    "@angular-devkit/schematics" "22.2.3"
     comment-json "5.0.0"
     jsonc-parser "3.3.1"
     pluralize "8.0.0"
